@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rejstřík projektů — LAYA HOME</title>
+  <meta name="description" content="Rejstřík všech realizovaných projektů ateliéru LAYA HOME — interiéry, rodinné domy, rekonstrukce a exteriéry.">
+  <link rel="canonical" href="https://www.layahome.cz/portfolio.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:title" content="Rejstřík projektů — LAYA HOME">
+  <meta property="og:description" content="Všechny realizované projekty ateliéru LAYA HOME.">
+  <meta property="og:url" content="https://www.layahome.cz/portfolio.html">
+  <meta property="og:image" content="https://www.layahome.cz/nahled_1.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Newsreader:ital,opsz,wght@1,6..72,300..500&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Přeskočit na obsah</a>
+
+<header class="site-header is-scrolled">
+  <a class="wordmark" href="index.html">LAYA HOME<sup>ATELIÉR</sup></a>
+  <nav class="main-nav" aria-label="Hlavní navigace">
+    <ul>
+      <li><a href="index.html#list-02">Příběh</a></li>
+      <li><a href="index.html#list-03">Nabídka</a></li>
+      <li><a href="index.html#list-04">Postup</a></li>
+      <li><a href="portfolio.html" aria-current="page">Rejstřík</a></li>
+      <li><a href="index.html#list-06">Kontakt</a></li>
+    </ul>
+  </nav>
+  <button class="menu-toggle" aria-label="Otevřít menu" aria-expanded="false" aria-controls="mobile-menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobile-menu">
+  <nav aria-label="Mobilní navigace">
+    <ul>
+      <li><a href="index.html#list-02">Příběh</a></li>
+      <li><a href="index.html#list-03">Nabídka</a></li>
+      <li><a href="index.html#list-04">Postup</a></li>
+      <li><a href="portfolio.html" aria-current="page">Rejstřík</a></li>
+      <li><a href="index.html#list-06">Kontakt</a></li>
+    </ul>
+    <span class="mono">LAYA HOME — Ateliér architektury</span>
+  </nav>
+</div>
+
+<main id="main">
+  <section class="page-hero sheet">
+    <div class="sheet-head mono">
+      <span class="sheet-name">Všechny realizace</span>
+      <span class="sheet-no">List P / 06 — Rejstřík</span>
+    </div>
+    <h1 class="page-hero-title display">Rejstřík <span class="voice">projektů.</span></h1>
+    <p class="page-hero-sub mono" data-count>Realizované projekty</p>
+  </section>
+
+  <div class="filter-bar">
+    <div class="filter-inner" role="group" aria-label="Filtr projektů podle kategorie"></div>
+  </div>
+  <p id="filter-live" class="visually-hidden" role="status" aria-live="polite"></p>
+
+  <section class="sheet" aria-label="Seznam projektů">
+    <div class="reg-grid"></div>
+    <noscript>
+      <p class="noscript-note">Pro zobrazení rejstříku projektů je potřeba zapnutý JavaScript. Ráda Vám projekty představím i osobně — <a href="index.html#list-06">napište mi</a>.</p>
+    </noscript>
+
+    <dl class="title-block mono">
+      <div><dt>Soubor</dt><dd>Rejstřík realizací</dd></div>
+      <div><dt>Položky</dt><dd data-total-dd>—</dd></div>
+      <div><dt>Řazení</dt><dd>P-01 → P-21</dd></div>
+      <div><dt>List</dt><dd>P — Rejstřík</dd></div>
+    </dl>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-mark" aria-hidden="true">LAYA HOME</p>
+    <div class="footer-cols">
+      <div>
+        <h4>Ateliér</h4>
+        <p class="footer-claim">Domy a interiéry, které vyprávějí příběh svých majitelů.</p>
+      </div>
+      <div>
+        <h4>Mapa</h4>
+        <a href="index.html#list-02">Příběh</a><br>
+        <a href="index.html#list-03">Nabídka</a><br>
+        <a href="index.html#list-04">Postup</a><br>
+        <a href="portfolio.html">Rejstřík</a>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <a href="mailto:info@layahome.cz">info@layahome.cz</a>
+      </div>
+      <div>
+        <h4>Ateliér právě teď</h4>
+        <p>Praha — <span data-clock>--:--</span></p>
+      </div>
+    </div>
+    <div class="footer-base mono">
+      <span>© <span id="year">2026</span> LAYA HOME — všechna práva vyhrazena</span>
+      <span>Výkresová dokumentace — rejstřík</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/site.js" defer></script>
+<script src="js/portfolio.js" defer></script>
+</body>
+</html>
